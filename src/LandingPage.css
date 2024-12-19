@@ -1,0 +1,68 @@
+/* src/LandingPage.css */
+
+.landing-page {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Adjust for navbar height */
+    background-color: #121212;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background: url('https://images.unsplash.com/photo-1720975945110-6278215f280d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    padding: 100px 50px;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+  }
+  
+  .header p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background: #61dafb;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background: #21a1f1;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    background: #1c1c1c;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
